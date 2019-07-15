@@ -23,8 +23,8 @@ First you need to enter into python interactive shell using following command in
 2. import db object and generate SQLite database
 Use following code in python interactive shell
 
-  >>> from crud import db
-  >>> db.create_all()
+  from crud import db
+  db.create_all()
 
 And crud.sqlite will be generated inside your flask_tutorial folder.
 d. Run flask application
